@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@playwright/test": "^1.51.0",
     "axe-core": "^4.10.3",
     "cypress": "^14.2.0",
     "cypress-axe": "^1.6.0"
