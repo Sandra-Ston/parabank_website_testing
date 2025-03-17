@@ -1,0 +1,20 @@
+{
+    "validUser": {
+      "firstName": "Alice",
+      "lastName": "Right",
+      "address": {
+        "street": "123 Test Street",
+        "city": "Red Deer",
+        "state": "Alberta",
+        "zipCode": "T4E 0B2"
+      },
+      "phoneNumber": "+1234567890",
+      "ssn": "123456789",
+      "username": "AliceTestUser",
+      "password": "TestPassword123"
+    },
+    "invalidUser": {
+      "username": "Rose",
+      "password": "Wrong"
+    }
+  }
