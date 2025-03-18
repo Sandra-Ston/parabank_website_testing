@@ -1,0 +1,62 @@
+Exploratory Testing of the Parabank Website
+
+Introduction
+Parabank is an online banking application that provides users with various banking functionalities, including account management, fund transfers, loan applications, and customer service. This document outlines an exploratory testing approach to evaluate the functionality of the Parabank website (https://parabank.parasoft.com/parabank/index.htm).
+
+Website Functions
+
+1. Customer Login or Registration - allow users to log in or register.
+- Verify login with valid and invalid credentials.
+- Test password recovery and reset options.
+- Validate new user registration.
+
+2. Account Services
+Open New Account - create checking or savings accounts:
+- Open a Checking account by selecting an account number and pressing "Open New Account".
+- Open a Savings account by selecting an account number and pressing "Open New Account".
+- Verify successful account creation messages.
+
+Accounts Overview - display account details and activity:
+- Validate account details page.
+- Check transaction history and filtering options.
+
+3. Transfer Funds - move funds between accounts.
+- Enter amount, select source and destination account numbers, and complete the transfer.
+- Validate transaction success message.
+- Ensure transfer details appear correctly in account activity.
+
+4. Bill Pay
+Bill Payment Service - pay bills via the Bill Payment Service:
+- Enter payee information and send payment.
+- Verify successful bill payment confirmation.
+- Validate scheduled and recurring payments.
+
+5. Find Transactions - search transactions by various criteria.
+- Select an account to view transaction history.
+- Search transactions by Transaction ID, Date, Date Range, and Amount.
+- Verify search results and error handling.
+
+6. Update Contact Info - update user profile information.
+- Validate successful updates to contact details (e.g., email, phone).
+- Ensure error messages appear for invalid inputs.
+
+7. Request Loan - apply for a loan online.
+- Apply for a loan using the request form.
+- Verify approval or rejection messages.
+- Ensure correct interest rate calculations.
+
+8. Log Out - end user session securely.
+- Ensure successful logout and session termination.
+- Verify unauthorized access to protected pages after logout.
+
+9. Contact Us - submit inquiries via a contact form.
+Customer Care:
+- Submit inquiries by entering name, email, phone number, and message.
+- Validate confirmation of message submission.
+
+Website Performance and Usability
+- Test page loading speed across different browsers.
+- Verify mobile and tablet responsiveness and compatibility.
+- Check for broken links and missing resources.
+- Evaluate overall UI/UX for ease of navigation.
+

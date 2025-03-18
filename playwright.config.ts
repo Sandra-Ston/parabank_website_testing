@@ -1,9 +1,9 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './playwright-tests',
+  testDir: './playwright',
   use: {
-    headless: true,
-    baseURL: 'https://example.com',
+    baseURL: 'https://parabank.parasoft.com/parabank/index.htm',
+    headless: false
   },
 });
