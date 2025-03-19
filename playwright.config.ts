@@ -4,6 +4,6 @@ export default defineConfig({
   testDir: './playwright',
   use: {
     baseURL: 'https://parabank.parasoft.com/parabank/index.htm',
-    headless: false
+    headless: true
   },
 });
